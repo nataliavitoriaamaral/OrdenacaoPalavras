@@ -6,5 +6,10 @@ public class Teste {
 
         System.out.println("Lista original:");
         System.out.println(Arrays.toString(palavras));
+
+        // Ordenação por ordem alfabética (default da classe String)
+        Arrays.sort(palavras);
+        System.out.println("Ordem alfabetica:");
+        System.out.println(Arrays.toString(palavras));
     }
 }
